@@ -182,9 +182,9 @@ const Header: React.FC = () => {
   const styles = getThemeStyles(theme);
 
   const themes = [
-    { id: 'theme1' as ThemeType, name: 'Minimalist Light' },
-    { id: 'theme2' as ThemeType, name: 'Dark Sidebar' },
-    { id: 'theme3' as ThemeType, name: 'Colorful Gradient' }
+    { id: 'theme1' as ThemeType, name: 'Light' },
+    { id: 'theme2' as ThemeType, name: 'Dark' },
+    { id: 'theme3' as ThemeType, name: 'Colorful' }
   ];
 
   const navItems = [
